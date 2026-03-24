@@ -37,6 +37,11 @@ nav {
     object-fit: cover;
 }
 
+.logo img:hover {
+    width: 60px;
+    height: 60px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -52,6 +57,11 @@ nav ul li a {
     font-weight: 500;
 }
 
+nav ul li a:hover {
+    color: #faf7f2;
+}
+
+/* buttons */
 .cv-button {
     text-decoration: none;
     background-color: #faf7f2;
@@ -63,4 +73,27 @@ nav ul li a {
 .cv-button:hover {
     background-color: #d4a5a5;
     color: #faf7f2;
+}
+
+/* footer */
+footer {
+    background-color: #7b9eb9;
+    color: #faf7f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.social a {
+    color: #faf7f2;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #d4a5a5;
 }
