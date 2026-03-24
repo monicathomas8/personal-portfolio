@@ -75,6 +75,15 @@ nav ul li a:hover {
     color: #faf7f2;
 }
 
+/* hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    gap: 30px;
+}
+
 /* footer */
 footer {
     background-color: #7b9eb9;
