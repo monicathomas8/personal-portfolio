@@ -73,7 +73,7 @@ nav ul li a:hover {
     background-color: #d4a5a5;
     color: #faf7f2;
 }
-
+/*================== index.html ==================*/
 /* hero section */
 .hero-content {
     display: flex;
@@ -91,7 +91,6 @@ nav ul li a:hover {
     text-align: center;
     font-size: 2.5rem;
     color: #333333;
-    margin-top: 20px;
 }
 
 .hero-tagline {
@@ -129,6 +128,42 @@ nav ul li a:hover {
 .hero-button:hover {
     background-color: #d4a5a5;
     color: #333333;
+}
+
+/* Skills Section */
+.skill-section {
+    padding: 20px 60px;
+}
+
+.skill-section h2 {
+    text-align: center;
+}
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.bar {
+    background-color: #7b9eb9;
+    border-radius: 10px;
+    height: 20px;
+    width: 100%;
+}
+
+.fill {
+    background-color: #d4a5a5;
+    border-radius: 10px;
+    height: 20px;
+    animation: fillBar 1.5s ease-in-out forwards;
+}
+
+@keyframes fillBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--fill-width);
+    }
 }
 
 /* footer */
