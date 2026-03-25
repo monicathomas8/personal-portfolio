@@ -243,6 +243,37 @@ nav ul li a:hover {
     transform: rotateY(180deg);
 }
 
+/*-- career timeline --*/
+.timeline {
+   padding: 20px 60px;
+}
+
+.timeline h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.timeline-container {
+    position: relative;
+    border-left: 3px solid #7b9eb9;
+    padding-left: 30px;
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #7b9eb9;
+    border-radius: 50%;
+    position: absolute;
+    left: -39px;
+    top: 5px;
+}
 
 /* footer */
 footer {
