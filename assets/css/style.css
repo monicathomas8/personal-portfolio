@@ -185,6 +185,20 @@ nav ul li a:hover {
 }
 
 /*================== about.html ==================*/
+.about-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px 60px;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-right {
+    flex: 1;
+}
+
 .about-hero {
     display: flex;
     align-items: center;
@@ -246,6 +260,9 @@ nav ul li a:hover {
 /*-- career timeline --*/
 .timeline {
    padding: 20px 60px;
+   background-color: #d4a5a5;
+   border-radius: 10px;
+   box-shadow: #333333 0px 4px 15px;
 }
 
 .timeline h2 {
