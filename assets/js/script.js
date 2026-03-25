@@ -9,3 +9,10 @@ skillBars.forEach(bar => {
         fill.style.animation = '';
     });
 });
+
+// Auto flip the about image
+const flipCard = document.querySelector('.flip-card');
+
+setInterval(() => {
+    flipCard.classList.toggle('flipped');
+}, 3000);
