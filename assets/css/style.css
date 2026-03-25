@@ -292,6 +292,22 @@ nav ul li a:hover {
     top: 5px;
 }
 
+/*-- education --*/
+.education {
+    background-color: #d4a5a5;
+    border-radius: 10px;
+    padding: 20px 60px;
+    margin-top: 20px;
+    box-shadow: #333333 0px 4px 15px;
+    text-align: center;
+}
+
+.education h2, .education h3, .education p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
 /* footer */
 footer {
     background-color: #7b9eb9;
