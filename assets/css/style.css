@@ -322,6 +322,7 @@ nav ul li a:hover {
 .about-cv-button-container {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .about-cv-button {
@@ -359,6 +360,9 @@ nav ul li a:hover {
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+/*----------------- Contact.html -----------------*/
+
 
 
 /* footer */
