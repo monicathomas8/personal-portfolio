@@ -15,6 +15,8 @@
     <script src="https://kit.fontawesome.com/4e6fe63dc1.js" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Linkedin-->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </head>
 <body>
 <!-- Header -->
@@ -43,42 +45,55 @@
             <!-- contact form left -->
             <div class="contact-left">
                 <h2>Get in Touch</h2>
+                <!--  formspree for messages  -->
                 <form action="https://formspree.io/f/xkopndek" method="POST">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Your name"  required>
-
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Your email" required>
-
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
-
                     <button type="submit">Send Message</button>
                 </form>
-
             </div>
+
             <!-- contact details right -->
             <div class="contact-right">
-                <h2>Contact Details</h2>
-                <p><i class="fa-solid fa-envelope"></i> Email: info@monica-webdeveloper.com</p>
-                <p><i class="fa-solid fa-map-marker-alt"></i> Location: London, United Kingdom</p>
-                <a href="https://wa.me/447368252679" target="_blank" aria-label="Contact me on WhatsApp">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
-                </a>
+                <div class="contact-details">
+                    <h2>Contact Details</h2>
+                    <p><i class="fa-solid fa-map-marker-alt"></i> Location: London, United Kingdom</p>
+                    <!-- email link-->
+                    <a href="mailto:info@monica-webdeveloper.com" aria-label="Send me an email">
+                        <i class="fa-solid fa-envelope"></i> Email Me
+                    </a>
+                    <!-- WhatsApp link -->
+                    <a href="https://wa.me/447368252679" target="_blank" aria-label="Contact me on WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
+                    </a>
+                </div>
 
-                <h3>Find Me Online</h3>
-                <!-- Social Links  -->
-                <a href="https://github.com/monicathomas8" target="_blank" aria-label="Visit my GitHub">
-                    <i class="fa-brands fa-github"></i> GitHub
-                </a>
-                <a href="https://www.instagram.com/monica.webdeveloper/" target="_blank" aria-label="Visit my Instagram">
-                    <i class="fa-brands fa-instagram"></i> Instagram
-                </a>
-                <a href="https://www.linkedin.com/in/monica101/" target="_blank" aria-label="Visit my LinkedIn">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
-                </a>
+                <div class="social-plugs">
+                    <div class="social-plugs-inner">
+                        <!-- LinkedIn -->
+                        <div class="linkedin-box">
+                            <h2>Connect with Me on LinkedIn</h2>
+                            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" 
+                                data-vanity="monica101" data-version="v1">
+                                <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/monica101?trk=profile-badge">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- GitHub Search -->
+                        <div class="github-box">
+                            <h2>View My GitHub Projects</h2>
+                            <p>You can also search other user profiles!</p>
+                            <input type="text" id="gh-username" value="monicathomas8" oninput="fetchGitHubInformation()">
+                            <div id="gh-user-data"></div>
+                            <div id="gh-repo-data"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
     </main>
 
@@ -100,7 +115,10 @@
         <!-- Download CV Button -->
         <a href="assets/docs/cv.pdf" download aria-label="Download my CV" class="cv-button">Download CV</a>
     </footer>
-    <!-- JavaScript-->
-    <script src="assets/js/script.js"></script>
+
+    <!-- jquery and JavaScript -->
+     <script src="assets/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/github.js"></script>
 </body>
 </html>
