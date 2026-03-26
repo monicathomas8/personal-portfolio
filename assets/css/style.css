@@ -362,10 +362,16 @@ nav ul li a:hover {
 }
 
 /*================== contact.html ==================*/
+.contact-title {
+    text-align: center;
+    padding: 20px 0;
+}
+
 .contact-container {
     display: flex;
     gap: 40px;
     padding: 50px 60px;
+    align-items: flex-start;
 }
 
 .contact-left {
@@ -409,7 +415,7 @@ nav ul li a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: #333333 0px 4px 15px;
     transition: all 0.2s ease;
 }
 
@@ -448,25 +454,32 @@ nav ul li a:hover {
     background-color: #d4a5a5;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: #333333 0px 4px 15px;
     margin-bottom: 20px;
 }
 
 .social-plugs {
-    background-color: #7b9eb9;
+    background-color: #d4a5a5;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: #333333 0px 4px 15px;
     width: 80%;
 }
 
 .social-plugs-inner {
     display: flex;
     gap: 20px;
+    text-align: center;
 }
 
 .linkedin-box, .github-box {
     flex: 1;
+}
+
+.linkedin-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* footer */
