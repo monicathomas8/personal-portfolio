@@ -138,6 +138,33 @@ nav ul li a:hover {
     transition: all 0.2s ease;
 }
 
+/* tech stack section */
+.tech-stack {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.tech-track {
+    display: flex;
+    gap: 40px;
+    animation: scroll 20s linear infinite;
+}
+
+.tech-track img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
 /* Skills Section */
 .skill-section {
     padding: 20px 60px;
@@ -290,6 +317,32 @@ nav ul li a:hover {
     position: absolute;
     left: -39px;
     top: 5px;
+}
+
+.about-cv-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-cv-button {
+    text-decoration: none;
+    background-color: #7b9eb9;
+    padding: 25px 25px;
+    border-radius: 20px;
+    color: #faf7f2;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.about-cv-button:hover {
+    background-color: #d4a5a5;
+    color: #faf7f2;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+    transition: all 0.2s ease;
 }
 
 /*-- education --*/
