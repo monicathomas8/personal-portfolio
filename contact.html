@@ -39,7 +39,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="contact-pad">
         <!-- Contact Section -->
         <h1 class="contact-title">Contact Me</h1>
         <section class="contact-container">
@@ -60,44 +60,42 @@
 
             <!-- contact details right -->
             <div class="contact-right">
-                <div class="contact-details">
-                    <h2>Contact Details</h2>
-                    <p><i class="fa-solid fa-map-marker-alt"></i> Location: London, United Kingdom</p>
-                    <!-- email link-->
-                    <a href="mailto:info@monica-webdeveloper.com" aria-label="Send me an email">
-                        <i class="fa-solid fa-envelope"></i> Email Me
-                    </a>
-                    <!-- WhatsApp link -->
-                    <a href="https://wa.me/447368252679" target="_blank" aria-label="Contact me on WhatsApp">
-                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
-                    </a>
-                </div>
-
-                <div class="social-plugs">
-                    <div class="social-plugs-inner">
-                        <!-- LinkedIn -->
-                        <div class="linkedin-box">
-                            <h2>Connect with Me on LinkedIn</h2>
-                            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" 
+                <div class="">
+                    <div class="contact-details">
+                        <h2>Contact Details</h2>
+                        <p><i class="fa-solid fa-map-marker-alt"></i> Location: London, United Kingdom</p>
+                        <!-- email link-->
+                        <a href="mailto:info@monica-webdeveloper.com" aria-label="Send me an email">
+                            <i class="fa-solid fa-envelope"></i> Email Me
+                        </a>
+                        <!-- WhatsApp link -->
+                        <a href="https://wa.me/447368252679" target="_blank" aria-label="Contact me on WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
+                        </a>
+                    </div>
+                    <!-- LinkedIn -->
+                    <div class="linkedin-box contact-details">
+                        <h2>Connect with Me on LinkedIn</h2>
+                        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" 
                                 data-vanity="monica101" data-version="v1">
                                 <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/monica101?trk=profile-badge">
                                 </a>
-                            </div>
-                        </div>
-                        <!-- GitHub Search -->
-                        <div class="github-box">
-                            <h2>View My GitHub Projects</h2>
-                            <p>You can also search other user profiles!</p>
-                            <input type="text" id="gh-username" value="monicathomas8" oninput="fetchGitHubInformation()">
-                            <div id="gh-user-data"></div>
-                            <div id="gh-repo-data"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- GitHub Search -->
+        <div class="social-plugs">
+            <div class="github-box">
+                <h2>View My GitHub Projects</h2>
+                <p>You can also search other user profiles!</p>
+                <input type="text" id="gh-username" value="monicathomas8" oninput="fetchGitHubInformation()">
+                <div id="gh-user-data"></div>
+                <div id="gh-repo-data"></div>
+            </div>
+        </div>
     </main>
-
     <footer>
         <div class="social">
             <!-- Social Links -->

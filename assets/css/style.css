@@ -362,6 +362,10 @@ nav ul li a:hover {
 }
 
 /*================== contact.html ==================*/
+.contact-pad {
+    padding-bottom: 20px;
+}
+
 .contact-title {
     text-align: center;
     padding: 20px 0;
@@ -373,6 +377,18 @@ nav ul li a:hover {
     padding: 50px 60px;
     align-items: flex-start;
 }
+.contact-container a, .contact-container p {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 .contact-left {
     background-color: #d4a5a5;
@@ -380,11 +396,6 @@ nav ul li a:hover {
     padding: 30px;
     box-shadow: #333333 0px 4px 15px;
     flex: 1;
-}
-
-.contact-left h2 {
-    text-align: center;
-    margin-bottom: 30px;
 }
 
 .contact-left form {
@@ -434,18 +445,6 @@ nav ul li a:hover {
     flex: 1.5;
 }
 
-.contact-right h2, h3 {
-    margin-bottom: 20px;
-}
-
-.contact-right a, p {
-    display: block;
-    text-decoration: none;
-    color: #333333;
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-}
-
 .contact-right a:hover {
     color: #7b9eb9;
 }
@@ -458,28 +457,44 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.social-plugs {
-    background-color: #d4a5a5;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: #333333 0px 4px 15px;
-    width: 80%;
-}
-
-.social-plugs-inner {
-    display: flex;
-    gap: 20px;
-    text-align: center;
-}
-
-.linkedin-box, .github-box {
-    flex: 1;
-}
-
 .linkedin-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
+}
+
+.social-plugs {
+    background-color: #d4a5a5;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: #333333 0px 4px 15px;
+    width: 95%;
+    margin: auto;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.social-plugs h2 {
+    margin-bottom: 20px;
+}
+
+.social-plugs li {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#gh-repo-data a {
+    color: #333333;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#gh-repo-data a:hover {
+    color: #7b9eb9;
 }
 
 /* footer */
