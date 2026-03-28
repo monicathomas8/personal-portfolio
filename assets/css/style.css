@@ -535,6 +535,7 @@ nav ul li a:hover {
     color: #333333;
     font-size: 1.2rem;
     margin-top: 15px;
+    padding: 10px;
 }
 
 .project-card a:hover {
