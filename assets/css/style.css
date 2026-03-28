@@ -508,6 +508,7 @@ nav ul li a:hover {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     padding: 20px 60px;
+    grid-template-rows: auto;  
 }
 
 .projects-heading {
