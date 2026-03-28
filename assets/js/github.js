@@ -20,13 +20,13 @@ function userInformationHTML(user) {
             <p>Followers: ${user.followers} - Following ${user.following} <br> Repos: ${user.public_repos}</p>
         </div>`;
 }
-/* changed function to only show first 5 repos */
+/* changed function to only show first 6 repos */
 function repoInformationHTML(repos) {
     if (repos.length == 0) {
         return `<div class="clearfix repo-list">No repos!</div>`;
     }
 
-    var listItemsHTML = repos.slice(0, 5).map(function(repo) {
+    var listItemsHTML = repos.slice(0, 6).map(function(repo) {
         return `<li>
                     <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                 </li>`;
@@ -59,7 +59,8 @@ function fetchGitHubInformation(event) {
 
     $.when(
         $.getJSON(`https://api.github.com/users/${username}`),
-        $.getJSON(`https://api.github.com/users/${username}/repos`)
+        /* changed to get starred repos instead of repos */
+        $.getJSON(`https://api.github.com/users/${username}/starred`)
     ).then(
         function(firstResponse, secondResponse) {
             var userData = firstResponse[0];
