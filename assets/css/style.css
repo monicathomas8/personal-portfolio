@@ -510,6 +510,12 @@ nav ul li a:hover {
     padding: 20px 60px;
 }
 
+.projects-heading {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .project-card {
     background-color: #d4a5a5;
     border-radius: 10px;
