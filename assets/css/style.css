@@ -598,6 +598,11 @@ nav ul li a:hover {
     gap: 15px;
 }
 
+.modal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .close-button {
     position: absolute;
     top: 15px;
