@@ -585,6 +585,51 @@ nav ul li a:hover {
     position: relative;
 }
 
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 1.5rem;
+    color: #333333;
+    text-decoration: none;
+}
+
+.close-button:hover {
+    color: #faf7f2;
+    transition: all 0.2s ease;
+}
+
+.modal-images {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modal-images img {
+    width: 100%;
+    max-width: 230px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+
+.project-links a:hover {
+    color: #faf7f2;
+    transition: all 0.2s ease;
+}
+
 /* footer */
 footer {
     background-color: #7b9eb9;
