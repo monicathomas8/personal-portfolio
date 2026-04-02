@@ -16,3 +16,5 @@ const flipCard = document.querySelector('.flip-card');
 setInterval(() => {
     flipCard.classList.toggle('flipped');
 }, 3000);
+
+// Project overlay functionality to replace the default link behavior with an overlay for future updates
