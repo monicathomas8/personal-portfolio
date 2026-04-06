@@ -10,6 +10,19 @@ skillBars.forEach(bar => {
     });
 });
 
+// Animate skill bars when scrolled into view
+const skillFills = document.querySelectorAll('.fill');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.animation = 'fillBar 1.5s ease-in-out forwards';
+        }
+    });
+}, { threshold: 0.5 });
+
+skillFills.forEach(bar => observer.observe(bar));
+
 // Auto flip the about image
 const flipCard = document.querySelector('.flip-card');
 
