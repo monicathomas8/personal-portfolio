@@ -695,8 +695,7 @@ footer {
     }
 
     .project-grid {
-        grid-template-columns: repeat(2, 1fr);
-        
+        grid-template-columns: repeat(2, 1fr);   
     }
 
     .burger {
@@ -730,20 +729,38 @@ footer {
     }
 
     .certificate {
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        padding: 20px 16px;
+        align-items: center;
+    } 
+
+    .contact-left, .contact-right, .contact-details, .linkedin-box, .social-plugs {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        flex: none;
+        padding: 10px;
+    }
+
+    .social-plugs a {
+        display: block;
+        margin: 10px;
+        font-size: smaller;
+    }
 }
-
-body {
-    font-size: 0.9rem;
-}
-
-p {
-    font-size: 0.9rem;
-}
-
-
-} 
 
 @media (max-width: 480px) {
     .project-grid {
@@ -757,10 +774,23 @@ p {
 
     .contact-container {
         flex-direction: column;
+        padding: 10px 16px;
     }
 
     p {
     font-size: 0.8rem;
-}
-}
+    }
 
+    .contact-right, .linkedin-box, .social-plugs {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        flex: none;
+        padding: 5px;
+        font-size: smaller;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+}
