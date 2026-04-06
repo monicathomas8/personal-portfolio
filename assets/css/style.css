@@ -19,9 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navigation */
 header {
-    background-color: #7b9eb9;
+    background-color: #7b9eb9; 
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -670,3 +669,68 @@ footer {
 .social a:hover {
     color: #d4a5a5;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        
+        width: 100%;
+        background-color: #7b9eb9;
+        padding: 20px;
+        gap: 20px;
+        z-index: 100;
+        align-items: center;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 5px;
+    }
+
+    .burger span {
+        width: 25px;
+        height: 3px;
+        background-color: #faf7f2;
+        border-radius: 3px;
+        display: block;
+    }
+
+} 
+
+@media (max-width: 480px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        padding: 20px 16px;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+}
+

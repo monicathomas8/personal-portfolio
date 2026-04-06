@@ -17,4 +17,7 @@ setInterval(() => {
     flipCard.classList.toggle('flipped');
 }, 3000);
 
-// Project overlay functionality to replace the default link behavior with an overlay for future updates
+// Toggle mobile menu
+document.getElementById('burger').onclick = () => 
+    document.getElementById('nav-menu').classList.toggle('open');
+
