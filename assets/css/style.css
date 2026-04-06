@@ -717,6 +717,32 @@ footer {
         display: block;
     }
 
+    .about-hero {
+        flex-direction: column;
+        padding: 20px 16px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-container {
+        flex-direction: column;
+        padding: 20px 16px;
+    }
+
+    .certificate {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 0.9rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+
 } 
 
 @media (max-width: 480px) {
@@ -732,5 +758,9 @@ footer {
     .contact-container {
         flex-direction: column;
     }
+
+    p {
+    font-size: 0.8rem;
+}
 }
 
