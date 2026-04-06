@@ -617,7 +617,7 @@ nav ul li a:hover {
     transition: all 0.2s ease;
 }
 
-.modal-images {
+.model-images {
     display: flex;
     gap: 15px;
     margin: 20px 0;
@@ -625,7 +625,7 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-.modal-images img {
+.model-images img {
     width: 100%;
     max-width: 230px;
     height: 150px;
