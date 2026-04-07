@@ -7,7 +7,7 @@
 
 /* main styles */
 body {
-    background-color: #faf7f2;
+    background-color:#fdf4e3;
     color: #333333;
     font-family: 'Poppins', sans-serif;
 }
@@ -63,13 +63,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #faf7f2;
+    color:#fdf4e3;
     transition: all 0.2s ease;
 }
 
 .cv-button {
     text-decoration: none;
-    background-color: #faf7f2;
+    background-color:#fdf4e3;
     padding: 8px 20px;
     border-radius: 20px;
     color: #333333;
@@ -77,7 +77,7 @@ nav ul li a:hover {
 
 .cv-button:hover {
     background-color: #d4a5a5;
-    color: #faf7f2;
+    color:#fdf4e3;
     transition: all 0.2s ease;
 }
 /*================== index.html ==================*/
@@ -128,7 +128,7 @@ nav ul li a:hover {
     text-decoration: none;
     background-color: #7b9eb9;
     padding: 8px 20px;
-    color: #faf7f2;
+    color:#fdf4e3;
     border-radius: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -334,7 +334,7 @@ nav ul li a:hover {
     background-color: #7b9eb9;
     padding: 25px 25px;
     border-radius: 20px;
-    color: #faf7f2;
+    color:#fdf4e3;
     font-weight: 500;
     display: inline-block;
     margin-top: 20px;
@@ -343,7 +343,7 @@ nav ul li a:hover {
 
 .about-cv-button:hover {
     background-color: #d4a5a5;
-    color: #faf7f2;
+    color:#fdf4e3;
     transition: all 0.2s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transform: translateY(2px);
@@ -422,7 +422,7 @@ nav ul li a:hover {
 }
 
 .contact-left button {
-    background-color: #faf7f2;
+    background-color:#fdf4e3;
     color: #333333;
     padding: 10px 30px;
     border: none;
@@ -436,7 +436,7 @@ nav ul li a:hover {
 
 .contact-left button:hover {
     background-color:#7b9eb9 ;
-    color: #faf7f2;
+    color:#fdf4e3;
     transform: translateY(2px);
 }
 
@@ -544,7 +544,7 @@ nav ul li a:hover {
 }
 
 .project-card a:hover {
-    color: #faf7f2;
+    color:#fdf4e3;
 }
 
 .project-card img {
@@ -565,7 +565,7 @@ nav ul li a:hover {
 
 .project-tags span {
     background-color: #7b9eb9;
-    color: #faf7f2;
+    color:#fdf4e3;
     padding: 5px 15px;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -617,7 +617,7 @@ nav ul li a:hover {
 }
 
 .close-button:hover {
-    color: #faf7f2;
+    color:#fdf4e3;
     transition: all 0.2s ease;
 }
 
@@ -648,14 +648,14 @@ nav ul li a:hover {
 }
 
 .project-links a:hover {
-    color: #faf7f2;
+    color:#fdf4e3;
     transition: all 0.2s ease;
 }
 
 /* footer */
 footer {
     background-color: #7b9eb9;
-    color: #faf7f2;
+    color:#fdf4e3;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -665,7 +665,7 @@ footer {
 }
 
 .social a {
-    color: #faf7f2;
+    color:#fdf4e3;
     font-size: 1.5rem;
     margin-right: 15px;
     text-decoration: none;
@@ -722,7 +722,7 @@ footer {
     .burger span {
         width: 25px;
         height: 3px;
-        background-color: #faf7f2;
+        background-color:#fdf4e3;
         border-radius: 3px;
         display: block;
     }
