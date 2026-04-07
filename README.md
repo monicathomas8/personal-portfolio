@@ -137,6 +137,27 @@ The user stories for this project were managed using a GitHub Project Board.
 
 ![Footer](assets/images/documentation/footer.png)
 
+## Technologies Used
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Used as the foundation of the site.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - Used to add the styles and layout of the site.
+* [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - Used to arrange items symmetrically on the pages.
+* [CSS Grid](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids) - Used to create the responsive projects grid.
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used for interactive features including the burger menu, skill bars and GitHub search.
+* [jQuery](https://jquery.com/) - Used to support JavaScript functionality.
+* [Font Awesome](https://fontawesome.com/) - Used for icons throughout the site.
+* [Google Fonts](https://fonts.google.com/) - Used for Playfair Display and Poppins fonts.
+* [Formspree](https://formspree.io/) - Used to handle contact form submissions.
+* [Devicon](https://devicon.dev/) - Used for tech stack icons.
+* [Git](https://git-scm.com/) - Used for version control.
+* [GitHub](https://github.com/) - Used to host the code and for deployment via GitHub Pages.
+* [VS Code](https://code.visualstudio.com/) - Used as the main code editor.
+
+
+
+
+
+
 
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/--*
