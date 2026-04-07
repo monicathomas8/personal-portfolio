@@ -332,3 +332,6 @@ To run this project locally:
 ### Acknowledgements
 * [Learning People](https://www.learningpeople.com/) - For providing the project brief and resources.
 * [Kevin Powell - YouTube](https://www.youtube.com/@KevinPowell) - For CSS guidance and inspiration.
+
+---
+*Designed and built by Monica Thomas © 2026*
