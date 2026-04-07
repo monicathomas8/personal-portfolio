@@ -1,7 +1,4 @@
- # [Monica Thomas | Personal Portfolio](https://monicathomas8.github.io/personal-portfolio/)
-
-![Monica's Portfolio shown on different screen sizes](assets/images/documentation/portfolio.png)
-
+# Monica Thomas | Personal Portfolio
 ## Overview
 
 Welcome to my portfolio! I'm Monica, a passionate web developer specialising in 
@@ -10,7 +7,19 @@ e-commerce and building beautiful, functional websites.
 This site is a showcase of my skills, projects and experience. From career history
 to live projects and everything in between.
 
-The website can be accessed here: [Live Site](https://monicathomas8.github.io/personal-portfolio/)
+**The website can be accessed here: [Live Site](https://monicathomas8.github.io/personal-portfolio/)**
+
+![Monica's Portfolio shown on different screen sizes](assets/images/documentation/portfolio.png)
+
+## Summary
+This personal portfolio website was designed and built by Monica Thomas as part of the Learning People Front End Plus course. 
+
+The site showcases Monica's skills, experience and projects as a Full Stack Web Developer specialising in e-commerce and front-end development.
+
+The site is fully responsive, accessible and deployed live via GitHub Pages. 
+
+It was built using only HTML and CSS with vanilla JavaScript, with a focus on clean code, good UX design and professional presentation.
+
 
 ## User Stories
 
@@ -54,6 +63,28 @@ The user stories for this project were managed using a GitHub Project Board.
     * Projects displayed in a grid layout
     * Each project has a title, description and technologies used
     * Links to live site and GitHub repo provided
+
+## Design
+
+### Colour Palette
+The following three colours were chosen for the site to keep a clean, professional feel:
+
+![Colour Palette](assets/images/documentation/colours.png)
+
+* `#FDF4E3` - Warm cream background
+* `#7B9EB9` - Muted blue for headers and accents
+* `#D4A5A5` - Soft rose for cards and highlights
+* **Note:** During development the background colour was updated from `#FAF7F2` to `#FDF4E3` for a warmer, more pigmented cream tone.
+
+### Wireframes
+Wireframes were created at the start of the project to plan the layout of each page.
+
+![All Page Wireframes](assets/images/documentation/full-wireframe.png)
+
+![Home Page Wireframe](assets/images/documentation/home-wireframe.png)
+
+![About Page Wireframe](assets/images/documentation/about-wireframe.png)
+
 
 ## Features
 
@@ -153,17 +184,151 @@ The user stories for this project were managed using a GitHub Project Board.
 * [GitHub](https://github.com/) - Used to host the code and for deployment via GitHub Pages.
 * [VS Code](https://code.visualstudio.com/) - Used as the main code editor.
 
+## File Structure
+```
+personal-portfolio/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── docs/
+│   │   └── cv.pdf
+│   ├── favicon/
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   └── site.webmanifest
+│   ├── images/
+│   │   ├── documentation/
+│   │   └── (all site images)
+│   └── js/
+│       ├── script.js
+│       └── github.js
+├── index.html
+├── about.html
+├── contact.html
+├── projects.html
+├── classicimpressions.html
+├── dreamscapes.html
+├── good-skin-company.html
+├── moodswings.html
+├── one-thing-app.html
+├── pay-tracker-app.html
+├── runrun.html
+├── LICENSE
+└── README.md
+```
+## Testing
+
+### HTML Validation
+All HTML pages were tested using the W3C HTML Validator.
+
+| Page | Result |
+|------|--------|
+| index.html | No errors or warnings |
+| about.html | No errors or warnings |
+| contact.html | No errors or warnings |
+| projects.html | No errors or warnings |
+
+![HTML Validation Home Page](assets/images/documentation/index-validation.png)
+![HTML Validation About Page](assets/images/documentation/about-validation.png)
+![HTML Validation Contact Page](assets/images/documentation/contact-vaildation.png)
+![HTML Validation Project Page](assets/images/documentation/project-vaildation.png)
+
+### CSS Validation
+The CSS file was tested using the W3C CSS Validator.
+* No errors found.
+* 2 warnings noted:
+    * CSS variables are not statically checked - this is a known validator limitation, not a code issue.
+    * Empty rule warning related to the @keyframes animation - this is a false positive and does not affect functionality.
+
+![CSS Validation](assets/images/documentation/css-w3c.png)
+
+### Lighthouse
+The site was tested using Lighthouse in Chrome DevTools.
+
+| Category | Score |
+|----------|-------|
+| Performance | 99 |
+| Accessibility | 95 |
+| Best Practices | 100 |
+| SEO | 100 |
+
+![Lighthouse Results](assets/images/documentation/lighthouse.png)
+
+### Browser Testing
+The website was tested on the following browsers:
+
+| Browser | Result |
+|---------|--------|
+| Google Chrome | ✅ Works as expected |
+| Microsoft Edge | ✅ Works as expected |
+
+### Responsiveness
+The website was tested on the following screen sizes using Chrome DevTools:
+
+| Device | Result |
+|--------|--------|
+| Apple iPhone | ✅ Works as expected |
+| Android Phone | ✅ Works as expected |
+| Tablet (768px) | ✅ Works as expected |
+| Laptop (1024px) | ✅ Works as expected |
+| Desktop (1440px) | ✅ Works as expected |
+
+![Responsive Design](assets/images/documentation/portfolio.png)
+
+### Bugs
+
+#### Fixed Bugs
+| Bug | Fix |
+|-----|-----|
+| Broken image links | Removed leading `/` from asset paths |
+| Burger menu dot showing on desktop | Added `display: none` to `.burger` outside media query |
+| LinkedIn badge not showing on mobile | Hidden on mobile using CSS `display: none` at 768px |
+| HTML validation warning - section lacks heading | Changed `<section class="tech-stack">` to `<div>` |
+| HTML validation warning - unnecessary type attribute | Removed `type="text/javascript"` from script tags |
+
+#### Known Bugs
+| Bug | Notes |
+|-----|-------|
+| Timeline first dot misalignment | The first dot on the career timeline is slightly misaligned from the start of the line. This is a known issue for future fixing. |
+
+## Deployment
+
+### Deploying to GitHub Pages
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+1. In the [GitHub repository](https://github.com/monicathomas8/personal-portfolio), navigate to the **Settings** tab.
+2. From the source section drop-down menu, select the **Main** branch, then click **Save**.
+3. The page will automatically refresh with a ribbon display to indicate the successful deployment.
+
+The live link can be found here: [Monica Thomas | Personal Portfolio](https://monicathomas8.github.io/personal-portfolio/)
+
+### Local Deployment
+To run this project locally:
+
+1. Go to the [GitHub repository](https://github.com/monicathomas8/personal-portfolio)
+2. Click the green **Code** button and copy the URL
+3. Open your terminal and type:
+```git clone https://github.com/monicathomas8/personal-portfolio.git```
+4. Open the project folder in your code editor
+
+## Credits
+
+### Code
+* The GitHub search feature was adapted from a previous personal project.
+* [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/--*) - Used for dynamic skill bar widths.
+* [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation) - Referenced for skill bar animations.
+* [Kevin Powell - YouTube](https://www.youtube.com/@KevinPowell) - Referenced for CSS techniques and best practices.
+* [jQuery](https://jquery.com/) - Used to support JavaScript functionality.
+* [Font Awesome](https://fontawesome.com/) - Used for icons throughout the site.
+* [Formspree](https://formspree.io/) - Used to handle contact form submissions.
+* [Google Fonts](https://fonts.google.com/) - Playfair Display and Poppins fonts.
 
 
+### Media
+* [Devicon](https://devicon.dev/) - Used for tech stack icons.
+* Profile photos are personal images belonging to Monica Thomas.
 
-
-
-
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/--*
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation
-
-https://devicon.dev/
-
-https://formspree.io/
+### Acknowledgements
+* [Learning People](https://www.learningpeople.com/) - For providing the project brief and resources.
+* [Kevin Powell - YouTube](https://www.youtube.com/@KevinPowell) - For CSS guidance and inspiration.
