@@ -766,6 +766,10 @@ footer {
         margin: 10px;
         font-size: smaller;
     }
+
+    .linkedin-box {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
