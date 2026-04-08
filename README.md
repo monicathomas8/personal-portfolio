@@ -106,7 +106,8 @@ Wireframes were created at the start of the project to plan the layout of each p
 ### Tech Stack
 * A scrolling banner displays the technologies Monica works with.
 * The animation runs continuously, giving a dynamic feel to the page.
-* Icons are sourced from Devicon for consistency in style.
+* Icons are sourced from Devicon for consistency in style. 
+* Squarespace and Shopify icons are sourced from Monica's personal Squarespace account and Shopify's public image library respectively.
 
 ![Tech Stack](assets/images/documentation/tech-stack.png)
 
@@ -141,7 +142,7 @@ Wireframes were created at the start of the project to plan the layout of each p
 ### Projects
 * A responsive grid displays all of Monica's projects.
 * Each project card shows a screenshot, title, description and technologies used.
-* Each card links to a detailed project page with a live site and GitHub repository link.
+* A few selected cards links to a detailed project page with a live site and GitHub repository link.
 
 ![Projects Grid](assets/images/documentation/projects.png)
 
@@ -149,6 +150,8 @@ Wireframes were created at the start of the project to plan the layout of each p
 * A clean contact form allows visitors to get in touch directly from the site.
 * Fields include name, email and message. All required before submission.
 * Form submissions are handled by Formspree and delivered straight to Monica's inbox.
+* A whats app button is available, which opens a direct WhatsApp chat when clicked.
+* An email link using mailto: is displayed on the page, which opens the user's default email client with Monica's address pre-fielled.
 
 ![Contact Form](assets/images/documentation/contact.png)
 
@@ -156,7 +159,7 @@ Wireframes were created at the start of the project to plan the layout of each p
 * An interactive GitHub search tool allows visitors to view Monica's GitHub projects.
 * Visitors can also search any other GitHub username to view their repositories.
 * Gives employers a quick way to explore Monica's code directly from the portfolio.
-* This feature was adapted from a previous project. 
+* This feature was adapted from a previous Code Institue diploma project.
 
 ![GitHub Search](assets/images/documentation/github-search.png)
 
@@ -327,6 +330,7 @@ To run this project locally:
 
 ### Media
 * [Devicon](https://devicon.dev/) - Used for tech stack icons.
+* Squarespace and Shopify icons in the tech stack banner are sourced from Monica's personal Squarespace account and Shopify's public image library respectively.
 * Profile photos are personal images belonging to Monica Thomas.
 
 ### Acknowledgements
